@@ -9,7 +9,7 @@ var user = prompt(`Select any one option
    
 
     if(user.toLowerCase() === "one"){
-        document.write('<h2>Forword Counting</h2>')
+        document.write('<h2>Forword Counting</h2> ')
        for(var i = 1 ; i <= 100; i += 10){
 
       
@@ -49,7 +49,7 @@ var usertable = prompt("Enter the table number")
 
 for(var i = userstart ; i <= userending; i++){
     
-    document.write(usertable + "  x  " + i + " = " + (usertable*i)  + "</br>"  )
+    document.write(usertable + "  &nbsp;  &nbsp;    x    &nbsp; &nbsp;  " + i + " &nbsp;  =  &nbsp; &nbsp;  " + (usertable*i)  + "</br>"  )
            }
 }
 
